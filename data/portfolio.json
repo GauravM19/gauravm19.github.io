@@ -1,0 +1,205 @@
+{
+  "name": "Gaurav Mahale",
+  "headline": "Code. Explore. Make it useful.",
+  "role": "Computer Science · Data Science · AI",
+  "location": "Glasgow, UK",
+  "email": "gauravmahale.1011@gmail.com",
+  "phone": "+44 75533 59799",
+  "github": "https://github.com/GauravM19",
+  "linkedin": "https://www.linkedin.com/in/gaurav-mahale-846a62259",
+  "resume": "/Gaurav_Mahale_Resume.pdf",
+  "introduction": "I’m Gaurav, a computer science graduate with MSc Data Science studies at the University of Glasgow. I build practical applications across machine learning, mobile development, and evidence-driven AI.",
+  "about": [
+    "My work connects software development with data science: from a Flutter hearing-test application to medical-image analysis, customer prediction, and retrieval-augmented generation.",
+    "I enjoy taking a problem from an initial idea to an application people can explore. I care about clear evaluation, accessible interfaces, and understanding why a system produces the results it does."
+  ],
+  "projects": [
+    {
+      "id": "rag",
+      "title": "ReliableRAG",
+      "subtitle": "Production RAG with Hallucination Evaluation",
+      "category": "AI & Data",
+      "summary": "A retrieval-augmented question-answering system with citations, evaluation, and confidence-based abstention.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "BM25",
+        "LSA",
+        "Docker"
+      ],
+      "bullets": [
+        "Combined BM25 and dense LSA retrieval with reranking to find relevant evidence.",
+        "Added source citations and abstention when retrieved evidence was insufficient.",
+        "Built an evaluation workflow covering retrieval, faithfulness, citation correctness, and abstention.",
+        "Packaged the application with FastAPI, Streamlit, Docker, and automated checks."
+      ],
+      "url": ""
+    },
+    {
+      "id": "bank",
+      "title": "Bank Marketing Prediction",
+      "subtitle": "Leakage-aware machine learning",
+      "category": "AI & Data",
+      "summary": "An end-to-end classification project using the UCI Bank Marketing dataset and a Streamlit interface.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Streamlit"
+      ],
+      "bullets": [
+        "Built preprocessing and model-training pipelines for predicting term-deposit subscription.",
+        "Excluded call duration from the deployable feature set to avoid information leakage.",
+        "Compared baseline, logistic regression, decision tree, and random forest models.",
+        "Added classification evaluation, feature importance, and a Streamlit prediction interface."
+      ],
+      "url": ""
+    },
+    {
+      "id": "audiometer",
+      "title": "App Based Digital Audiometer",
+      "subtitle": "Accessible hearing assessments",
+      "category": "Mobile",
+      "summary": "A Flutter application offering an affordable alternative to conventional hearing-test systems.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Database Management",
+        "Digital Audio Processing"
+      ],
+      "bullets": [
+        "Implemented calibration, background-noise monitoring, and full-range hearing tests with automatic audiogram generation.",
+        "Maintained a centralised database to support updates and large-scale assessments.",
+        "Added multilingual support, chatbot assistance, and doctor-referral features."
+      ],
+      "url": ""
+    },
+    {
+      "id": "brain",
+      "title": "Brain Tumour Detection using ML",
+      "subtitle": "Machine learning for MRI analysis",
+      "category": "AI & Data",
+      "summary": "A machine learning and image-processing project for detecting and classifying tumours in MRI scans.",
+      "technologies": [
+        "Python",
+        "OpenCV",
+        "NumPy",
+        "Scikit-learn"
+      ],
+      "bullets": [
+        "Trained and tested models to detect and classify tumours from MRI images.",
+        "Automated image preprocessing and analysis to support early-stage detection.",
+        "Focused on reducing manual review effort in medical imaging."
+      ],
+      "url": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Glasgow",
+      "place": "Glasgow, Scotland",
+      "degree": "MSc, Data Science",
+      "courses": [
+        "Web Sciences",
+        "Text as Data",
+        "Deep Learning",
+        "Big Data",
+        "Information Retrieval"
+      ]
+    },
+    {
+      "institution": "Pimpri Chinchwad College of Engineering",
+      "place": "Pune, India",
+      "degree": "B.Tech, Computer Science",
+      "courses": [
+        "Software Project Management",
+        "Database Management System",
+        "Machine Learning"
+      ]
+    }
+  ],
+  "skills": {
+    "Programming": [
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "MySQL"
+    ],
+    "AI & Data": [
+      "NumPy",
+      "OpenCV",
+      "Scikit-learn",
+      "Information retrieval",
+      "RAG evaluation",
+      "Power BI"
+    ],
+    "Applications & Tools": [
+      "Flutter",
+      "Dart",
+      "Git / GitHub",
+      "Figma",
+      "Microsoft Office",
+      "Digital Audio Processing",
+      "Image Processing"
+    ],
+    "People & Languages": [
+      "Problem Solving",
+      "Critical Thinking",
+      "Communication",
+      "Adaptability",
+      "Leadership & Teamwork",
+      "Event Coordination",
+      "English — Fluent",
+      "Hindi — Native"
+    ]
+  },
+  "achievements": [
+    {
+      "title": "Smart India Hackathon",
+      "result": "Finalist",
+      "year": "2024",
+      "description": "A nationwide student innovation competition focused on solving real-world challenges through creativity, technical problem-solving, and practical solutions.",
+      "source": "https://finale.sih.gov.in/event/NC026"
+    },
+    {
+      "title": "La Trobe Technology Infusion Grand Challenge",
+      "result": "1st Runner-up",
+      "year": "2024",
+      "description": "An innovation competition led by La Trobe University’s Centre for Technology Infusion for undergraduate students in Asia. Teams develop technology-based solutions to real-world problems, refine their ideas with academic and industry mentors, and present working prototypes to an international jury.",
+      "source": "https://www.latrobe.edu.au/research/centres/cti/grand-challenge/about"
+    },
+    {
+      "title": "AICTE’s IDE Bootcamp",
+      "result": "Winner",
+      "year": "",
+      "category": "Innovation",
+      "description": "The Innovation, Design and Entrepreneurship (IDE) Bootcamp is organised by AICTE and the Ministry of Education’s Innovation Cell. It brings student innovators and aspiring entrepreneurs together for hands-on learning in design thinking, product design, and business modelling. Participants refine their ideas with mentors and present pitches to expert panels for feedback.",
+      "source": "https://bootcamp.mic.gov.in/"
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Treasurer, Desi Society",
+      "organisation": "University of Glasgow",
+      "description": "Managed society finances, prepared budgets, tracked expenses, and supported allocation of funds for events and activities."
+    },
+    {
+      "title": "Member, Coding Club",
+      "organisation": "University of Glasgow",
+      "description": "Participated in coding workshops, collaborative projects, and peer-learning sessions to develop programming skills."
+    }
+  ],
+  "theme": {
+    "background": "#1c2936",
+    "accent": "#ffff55",
+    "secondary": "#89c77c"
+  },
+  "craft": {
+    "title": "GAURAV MAHALE",
+    "subtitle": "PORTFOLIO EDITION",
+    "splash": "Code. Craft. Create!",
+    "background": "/assets/voxel-landscape.webp"
+  }
+}
